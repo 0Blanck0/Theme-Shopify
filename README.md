@@ -1,4 +1,4 @@
-# Theme_Shopify - Défie CodeCamp "Trouve Ta Zone"
+# Theme Shopify - Défie CodeCamp "Trouve Ta Zone"
 
 Durant le premier CodeCamp de l'ETNA, qui a eu lieu du 7/12/2020 au 17.12.20, 3 défis était proposé. 
 
