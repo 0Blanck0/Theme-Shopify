@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+
+      <title>Map Selector</title>
+
+      <meta charset="UTF-8" lang="fr">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimal-ui">
+
+      <link rel="stylesheet" href="css/style.css">
+
+      <script src="js/include.js" async></script>
+      <script src="js/app.js" defer></script>
+
+   </head>
+   <body>
+
+      <main>
+
+         <div class="container paris_container">
+            <div class="paris_maps_container">
+               <!--Map Include Here-->
+            </div>
+         </div>
+
+         <div class="error_container" hidden>
+            <div class="error_content">
+               <!--Error Text Here-->
+            </div>
+         </div>
+
+         <div class="container">
+            <div class="list_container" hidden>
+               
+               <div class="row_container">
+                  <div class="row_content" onclick="showBox(0)">
+
+                     <div class="content flex_row_container">
+
+                        <div class="image_content">
+                           <img src="img/orange_blue.jpeg" alt="Image du marché">
+                        </div>
+
+                        <div class="body_container">
+
+                           <div class="flex_row_container large_auto_box">
+
+                              <div class="flex_col_container flex_1_box">
+                                 <div class="location_content">
+                                    <p>Location here.</p>
+                                 </div>
+         
+                                 <div class="description_content flex_1_box">
+                                    <p>Description here.</p>
+                                 </div>
+                              </div>
+                              
+                              <div class="btn_container">
+                                 <div class="btn_box">
+                                 <button class="btn_choose">Choisir ce marché</button> 
+                                 </div>
+                              </div>
+
+                           </div>
+
+                        </div>
+
+                     </div>
+
+                     <div class="hover_container">
+                        <div class="content hover_content">
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+
+               <div class="row_container">
+                  <div class="row_content" onclick="showBox(1)">
+
+                     <div class="content flex_row_container">
+
+                        <div class="image_content">
+                           <img src="img/orange_blue.jpeg" alt="Image du marché">
+                        </div>
+
+                        <div class="body_container">
+
+                           <div class="flex_row_container large_auto_box">
+
+                              <div class="flex_col_container flex_1_box">
+                                 <div class="location_content">
+                                    <p>Location here.</p>
+                                 </div>
+         
+                                 <div class="description_content flex_1_box">
+                                    <p>Description here.</p>
+                                 </div>
+                              </div>
+                              
+                              <div class="btn_container">
+                                 <div class="btn_box">
+                                 <button class="btn_choose">Choisir ce marché</button> 
+                                 </div>
+                              </div>
+
+                           </div>
+
+                        </div>
+
+                     </div>
+
+                     <div class="hover_container">
+                        <div class="content hover_content">
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+
+               <div class="row_container">
+                  <div class="row_content" onclick="showBox(2)">
+
+                     <div class="content flex_row_container">
+
+                        <div class="image_content">
+                           <img src="img/orange_blue.jpeg" alt="Image du marché">
+                        </div>
+
+                        <div class="body_container">
+
+                           <div class="flex_row_container large_auto_box">
+
+                              <div class="flex_col_container flex_1_box">
+                                 <div class="location_content">
+                                    <p>Location here.</p>
+                                 </div>
+         
+                                 <div class="description_content flex_1_box">
+                                    <p>Description here.</p>
+                                 </div>
+                              </div>
+                              
+                              <div class="btn_container">
+                                 <div class="btn_box">
+                                 <button class="btn_choose">Choisir ce marché</button> 
+                                 </div>
+                              </div>
+
+                           </div>
+
+                        </div>
+
+                     </div>
+
+                     <div class="hover_container">
+                        <div class="content hover_content">
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+
+               <div class="row_container">
+                  <div class="row_content" onclick="showBox(3)">
+
+                     <div class="content flex_row_container">
+
+                        <div class="image_content">
+                           <img src="img/orange_blue.jpeg" alt="Image du marché">
+                        </div>
+
+                        <div class="body_container">
+
+                           <div class="flex_row_container large_auto_box">
+
+                              <div class="flex_col_container flex_1_box">
+                                 <div class="location_content">
+                                    <p>Location here.</p>
+                                 </div>
+         
+                                 <div class="description_content flex_1_box">
+                                    <p>Description here.</p>
+                                 </div>
+                              </div>
+                              
+                              <div class="btn_container">
+                                 <div class="btn_box">
+                                 <button class="btn_choose">Choisir ce marché</button> 
+                                 </div>
+                              </div>
+
+                           </div>
+
+                        </div>
+
+                     </div>
+
+                     <div class="hover_container">
+                        <div class="content hover_content">
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                           <div class="product_container flex_1_box">
+                              <div class="hover_body">
+                                 <img src="img/orange_blue.jpeg" alt="Image du produit">
+                                 <p class="img_title">Nom du produit</p>
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+
+            </div>
+         </div>
+
+      </main>
+
+   </body>
+</html>
