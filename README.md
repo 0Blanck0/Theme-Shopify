@@ -30,7 +30,7 @@ Dans le dossier "Trouve ta zone 1.0 Paris" nous trouvons :
     - Tous les éléments nécessaires à l'installation de la solution dans Shopify.
 
 À noter qu'une documentation d'installation et d'utilisation est fournie avec notre projet.
-Pour finir ce projet possède également un PDF d'exposition du défi avec les détaillés de ce dernier ainsi que le nom et Prénoms des personnes ayant participé au projet.
+Pour finir ce projet possède également un PDF d'exposition du défi avec les détaillés de ce dernier ainsi que le nom et Prénoms des personnes ayant participé au projet.  
 
   
   
