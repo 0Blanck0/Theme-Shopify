@@ -34,4 +34,4 @@ Pour finir ce projet possède également un PDF d'exposition du défi avec les d
 
 Collaborateurs :
 
-    - [a link](https://github.com/user/repo/blob/branch/other_file.md)
+    [a link](https://github.com/user/repo/blob/branch/other_file.md)
