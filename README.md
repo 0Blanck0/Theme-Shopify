@@ -34,7 +34,7 @@ Pour finir ce projet possède également un PDF d'exposition du défi avec les d
 
 Collaborateurs :
 
-Alexandre ELISABETH - [0Blanck0](https://github.com/0Blanck0/),
-Sid-ahmed NOUAR - [Nouar-Sid-ahmed](https://github.com/Nouar-Sid-ahmed/),
-Lylian SCHMITT - [LoneWolf-51](https://github.com/LoneWolf-51/),
-Fabio MACHADO - [](https://github.com/0Blanck0/Theme-Shopify)
+Alexandre ELISABETH - [0Blanck0](https://github.com/0Blanck0/),  
+Sid-ahmed NOUAR - [Nouar-Sid-ahmed](https://github.com/Nouar-Sid-ahmed/),  
+Lylian SCHMITT - [LoneWolf-51](https://github.com/LoneWolf-51/),  
+Fabio MACHADO - [](https://github.com/0Blanck0/Theme-Shopify)  
